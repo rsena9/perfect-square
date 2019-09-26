@@ -24,8 +24,6 @@ class SquareTest {
     assertThrows(IllegalArgumentException.class, () -> Square.isPerfectSquare(-2));
     assertThrows(IllegalArgumentException.class, () -> Square.isPerfectSquare(-3));
 
-
   }
-
 
 }
